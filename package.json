@@ -1,4 +1,8 @@
 {
+  "name": "taskina",
+  "description": "1. User Can Signup + Login + Logout\r 2. User Can Create Task\r 3. User Can Edit/Update Task\r 4. User Can View Task\r 5. User Can Delete Task\r 6. User Can Mark Task \"Completed\" Once Task Is Finished.",
+  "version": "3.0.0",
+  "main": "server.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "dotenv": "^16.0.0",
@@ -8,5 +12,27 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.1",
     "morgan": "^1.10.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkkrsingh877/Taskina.git"
+  },
+  "keywords": [
+    "Taskina",
+    "The",
+    "Task",
+    "Saver",
+    "Rapidbuzz",
+    "Returns"
+  ],
+  "author": "Prabhat Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkkrsingh877/Taskina/issues"
+  },
+  "homepage": "https://github.com/pkkrsingh877/Taskina#readme"
 }
