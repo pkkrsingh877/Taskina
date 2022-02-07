@@ -1,5 +1,9 @@
 # Taskina 3.0: The Task Saver
 
+## Todo List
+
+1. [] Build UI
+
 ## Functionalities that I want
 
 1. User Can Signup + Login + Logout
