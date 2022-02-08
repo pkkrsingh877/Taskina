@@ -28,6 +28,10 @@ mongoose.connect('mongodb://localhost:27017/taskina' || process.env.MONGO_URI)
         console.log(err);
     });
 
+app.get('/', (req, res) => {
+    res.send('Simple Text');
+});
+
 app.listen(port, () => {
     console.log("App is listening on port", port);
 });
