@@ -28,8 +28,16 @@ mongoose.connect('mongodb://localhost:27017/taskina' || process.env.MONGO_URI)
         console.log(err);
     });
 
+app.get('/signup', (req, res) => {
+    res.render('auth/signup');
+});
+
+app.get('/login', (req, res) => {
+    res.render('auth/login');
+});
+
 app.get('/', (req, res) => {
-    res.send('Simple Text');
+    res.render('home/index');
 });
 
 app.listen(port, () => {
